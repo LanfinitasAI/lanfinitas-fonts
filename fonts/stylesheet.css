@@ -1,0 +1,202 @@
+/* ================================
+   Lanfinitas Web Fonts Stylesheet
+   Location: fonts/stylesheet.css
+   All src URLs are relative to this folder
+   ================================ */
+
+/* ---------- Rama Gothic C ---------- */
+
+@font-face {
+  font-family: 'Rama Gothic C';
+  src: url('RamaGothicC-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rama Gothic C';
+  src: url('RamaGothicC-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rama Gothic C';
+  src: url('RamaGothicC-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rama Gothic C';
+  src: url('RamaGothicC-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rama Gothic C';
+  src: url('RamaGothicC-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rama Gothic C';
+  src: url('RamaGothicC-Heavy.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Condensed / Width 01 variant */
+
+@font-face {
+  font-family: 'Rama Gothic C W01';
+  src: url('RamaGothicCW01-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+/* ---------- Rama Gothic E ---------- */
+
+@font-face {
+  font-family: 'Rama Gothic E';
+  src: url('RamaGothicE-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rama Gothic E';
+  src: url('RamaGothicE-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rama Gothic E';
+  src: url('RamaGothicE-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rama Gothic E';
+  src: url('RamaGothicE-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rama Gothic E';
+  src: url('RamaGothicE-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rama Gothic E';
+  src: url('RamaGothicE-Heavy.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Extended Width variant */
+
+@font-face {
+  font-family: 'Rama Gothic E W01';
+  src: url('RamaGothicEW01-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rama Gothic E W01';
+  src: url('RamaGothicEW01-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* ---------- Rama Gothic M ---------- */
+
+@font-face {
+  font-family: 'Rama Gothic M';
+  src: url('RamaGothicM-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rama Gothic M';
+  src: url('RamaGothicM-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rama Gothic M';
+  src: url('RamaGothicM-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rama Gothic M';
+  src: url('RamaGothicM-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rama Gothic M';
+  src: url('RamaGothicM-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rama Gothic M';
+  src: url('RamaGothicM-Heavy.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+/* ---------- Space Mono ---------- */
+
+@font-face {
+  font-family: 'Space Mono';
+  src: url('SpaceMono-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  src: url('SpaceMono-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  src: url('SpaceMono-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  src: url('SpaceMono-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+/* ---------- Example Base Usage ---------- */
+
+body {
+  font-family: 'Rama Gothic E', 'Rama Gothic M', 'Space Mono', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
